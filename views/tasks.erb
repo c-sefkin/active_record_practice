@@ -1,0 +1,7 @@
+<h1>Tasks</h1>
+
+% @tasks.each() do |task| %>
+  <li><%= task.description %> <a href="/tasks/<%= task.id() %>/edit">Update description</a></li>
+  <% end %>
+
+<a href='/'>Home</a>
